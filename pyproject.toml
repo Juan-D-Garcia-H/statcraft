@@ -1,0 +1,132 @@
+[build-system]
+requires = [
+    "scikit-build-core>=0.11",
+    "nanobind>=2.0",
+    "numpy>=1.22",
+    "cmake>=3.19",
+    "ninja>=1.11",
+]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "statcraft"
+version = "0.1.0"
+description = "Engines for statistical model fitting: GLM, NLME, MCGLM, NLS and SAEM with a lazy, namespaced Python API"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE", "THIRD_PARTY_NOTICES.md"]
+authors = [
+    { name = "Juan Garcia", email = "juandavidgh2011@gmail.com" },
+]
+keywords = [
+    "statistics",
+    "statistical-modeling",
+    "glm",
+    "nlme",
+    "mixed-effects",
+    "saem",
+    "nls",
+    "mcglm",
+    "numpy",
+    "cpp",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Programming Language :: C++",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy>=1.22",
+    "pandas",
+    "scipy",
+    "sympy",
+    "formulaic",
+]
+
+[project.optional-dependencies]
+viz = [
+    "matplotlib>=3.6",
+]
+data = [
+    "pyarrow>=10",
+]
+test = [
+    "pytest>=7",
+]
+
+[project.urls]
+Homepage = "https://pypi.org/project/statcraft/"
+
+[tool.scikit-build]
+cmake.version = ">=3.19"
+cmake.build-type = "Release"
+build-dir = "build/{wheel_tag}"
+wheel.packages = ["src/statcraft"]
+sdist.include = [
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "README.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "SUPPORT.md",
+]
+sdist.exclude = [
+    "build/",
+    "dist/",
+    "wheelhouse/",
+    "**/__pycache__/",
+    "**/*.pyc",
+    "**/*.pyo",
+    "**/.cr-build/",
+    "*.egg-info/",
+    ".pytest_cache/",
+    ".mypy_cache/",
+    ".ruff_cache/",
+    ".venv/",
+    "venv/",
+    ".idea/",
+    ".vscode/",
+]
+wheel.exclude = [
+    "**/__pycache__/",
+    "**/*.pyc",
+    "**/*.pyo",
+    "**/.cr-build/",
+    "include/**",
+    "share/**",
+]
+
+[tool.scikit-build.wheel.force-include]
+"data" = "statcraft/data"
+
+[tool.scikit-build.env]
+CMAKE_BUILD_PARALLEL_LEVEL = { env = "CMAKE_BUILD_PARALLEL_LEVEL", default = "2" }
+
+[tool.cibuildwheel]
+build = "cp311-* cp312-* cp313-* cp314-*"
+skip = "*-musllinux*"
+environment = { CMAKE_BUILD_PARALLEL_LEVEL = "2" }
+test-sources = ["tests"]
+test-extras = ["test"]
+test-command = "pytest -q"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.cibuildwheel.linux]
+archs = ["x86_64", "aarch64"]
+
+[tool.cibuildwheel.macos]
+archs = ["universal2"]
+environment = { CMAKE_BUILD_PARALLEL_LEVEL = "1", MACOSX_DEPLOYMENT_TARGET = "10.13" }
+
+[tool.cibuildwheel.windows]
+archs = ["AMD64"]
