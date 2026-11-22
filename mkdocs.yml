@@ -1,0 +1,54 @@
+site_name: statcraft
+site_description: Statistical model fitting in Python with C++23 engines
+repo_url: https://github.com/Juan-D-Garcia-H/statcraft
+repo_name: Juan-D-Garcia-H/statcraft
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Data loading: data-loading.md
+  - Engines:
+      - Model functions: model-functions.md
+      - GLM: glm.md
+      - Mixed effects (NLME): nlme.md
+      - Nonlinear least squares (NLS): nls.md
+      - Multivariate GLM (MCGLM): mcglm.md
+      - SAEM: saem.md
+  - Plotting and diagnostics: plotting.md
+  - Troubleshooting: troubleshooting.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+plugins:
+  - search
+
+extra:
+  version: 0.1.0
