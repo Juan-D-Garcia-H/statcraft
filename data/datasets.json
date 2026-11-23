@@ -1,0 +1,728 @@
+{
+  "generated_at": "2026-11-22T12:25:17",
+  "data_dir": "data",
+  "fingerprint": "b41124c607c6233945f316c436614e1e7e172c6b99d7e0f74cd8d9f3c194ee8a",
+  "dataset_count": 80,
+  "datasets": [
+    {
+      "name": "Affairs.csv",
+      "file": "Affairs.csv",
+      "format": ".csv",
+      "rows": 601,
+      "columns": 9,
+      "size_bytes": 18659,
+      "modified": "2026-11-08T14:54:22"
+    },
+    {
+      "name": "Alfalfa.csv",
+      "file": "Alfalfa.csv",
+      "format": ".csv",
+      "rows": 72,
+      "columns": 4,
+      "size_bytes": 1294,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Assay.csv",
+      "file": "Assay.csv",
+      "format": ".csv",
+      "rows": 60,
+      "columns": 4,
+      "size_bytes": 1051,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "AutoClaim.csv",
+      "file": "AutoClaim.csv",
+      "format": ".csv",
+      "rows": 10296,
+      "columns": 29,
+      "size_bytes": 1603347,
+      "modified": "2026-11-08T16:10:24"
+    },
+    {
+      "name": "BodyWeight.csv",
+      "file": "BodyWeight.csv",
+      "format": ".csv",
+      "rows": 176,
+      "columns": 4,
+      "size_bytes": 2706,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Cefamandole.csv",
+      "file": "Cefamandole.csv",
+      "format": ".csv",
+      "rows": 84,
+      "columns": 3,
+      "size_bytes": 1053,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Dialyzer.csv",
+      "file": "Dialyzer.csv",
+      "format": ".csv",
+      "rows": 140,
+      "columns": 5,
+      "size_bytes": 3129,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "DoctorVisits.csv",
+      "file": "DoctorVisits.csv",
+      "format": ".csv",
+      "rows": 5190,
+      "columns": 12,
+      "size_bytes": 270042,
+      "modified": "2026-11-10T21:34:58"
+    },
+    {
+      "name": "Earthquake.csv",
+      "file": "Earthquake.csv",
+      "format": ".csv",
+      "rows": 182,
+      "columns": 5,
+      "size_bytes": 3516,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Fatigue.csv",
+      "file": "Fatigue.csv",
+      "format": ".csv",
+      "rows": 262,
+      "columns": 3,
+      "size_bytes": 4099,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Gasoline.csv",
+      "file": "Gasoline.csv",
+      "format": ".csv",
+      "rows": 32,
+      "columns": 6,
+      "size_bytes": 930,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "GasolineYield.csv",
+      "file": "GasolineYield.csv",
+      "format": ".csv",
+      "rows": 32,
+      "columns": 6,
+      "size_bytes": 907,
+      "modified": "2026-11-08T19:10:06"
+    },
+    {
+      "name": "Glucose.csv",
+      "file": "Glucose.csv",
+      "format": ".csv",
+      "rows": 378,
+      "columns": 4,
+      "size_bytes": 5847,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Glucose2.csv",
+      "file": "Glucose2.csv",
+      "format": ".csv",
+      "rows": 196,
+      "columns": 4,
+      "size_bytes": 2504,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Gun.csv",
+      "file": "Gun.csv",
+      "format": ".csv",
+      "rows": 36,
+      "columns": 4,
+      "size_bytes": 712,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Hunting.csv",
+      "file": "Hunting.csv",
+      "format": ".csv",
+      "rows": 1216,
+      "columns": 11,
+      "size_bytes": 71439,
+      "modified": "2026-10-26T23:14:10"
+    },
+    {
+      "name": "IGF.csv",
+      "file": "IGF.csv",
+      "format": ".csv",
+      "rows": 237,
+      "columns": 3,
+      "size_bytes": 2789,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Machines.csv",
+      "file": "Machines.csv",
+      "format": ".csv",
+      "rows": 54,
+      "columns": 3,
+      "size_bytes": 507,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "MathAchSchool.csv",
+      "file": "MathAchSchool.csv",
+      "format": ".csv",
+      "rows": 160,
+      "columns": 7,
+      "size_bytes": 6302,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "MathAchieve.csv",
+      "file": "MathAchieve.csv",
+      "format": ".csv",
+      "rows": 7185,
+      "columns": 6,
+      "size_bytes": 242940,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Meat.csv",
+      "file": "Meat.csv",
+      "format": ".csv",
+      "rows": 30,
+      "columns": 4,
+      "size_bytes": 492,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "MedExp.csv",
+      "file": "MedExp.csv",
+      "format": ".csv",
+      "rows": 5574,
+      "columns": 15,
+      "size_bytes": 565997,
+      "modified": "2026-11-08T18:44:34"
+    },
+    {
+      "name": "Milk.csv",
+      "file": "Milk.csv",
+      "format": ".csv",
+      "rows": 1337,
+      "columns": 4,
+      "size_bytes": 30812,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Muscle.csv",
+      "file": "Muscle.csv",
+      "format": ".csv",
+      "rows": 60,
+      "columns": 3,
+      "size_bytes": 797,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "NMES1988.csv",
+      "file": "NMES1988.csv",
+      "format": ".csv",
+      "rows": 4406,
+      "columns": 21,
+      "size_bytes": 428562,
+      "modified": "2026-11-10T20:16:22"
+    },
+    {
+      "name": "NewBorn.csv",
+      "file": "NewBorn.csv",
+      "format": ".csv",
+      "rows": 270,
+      "columns": 21,
+      "size_bytes": 29289,
+      "modified": "2026-10-26T23:11:48"
+    },
+    {
+      "name": "Nitrendipene.csv",
+      "file": "Nitrendipene.csv",
+      "format": ".csv",
+      "rows": 89,
+      "columns": 4,
+      "size_bytes": 1815,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Oats.csv",
+      "file": "Oats.csv",
+      "format": ".csv",
+      "rows": 72,
+      "columns": 4,
+      "size_bytes": 1661,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Orange.csv",
+      "file": "Orange.csv",
+      "format": ".csv",
+      "rows": 35,
+      "columns": 3,
+      "size_bytes": 456,
+      "modified": "2026-11-12T13:06:06"
+    },
+    {
+      "name": "Orthodont.csv",
+      "file": "Orthodont.csv",
+      "format": ".csv",
+      "rows": 108,
+      "columns": 4,
+      "size_bytes": 2138,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Ovary.csv",
+      "file": "Ovary.csv",
+      "format": ".csv",
+      "rows": 308,
+      "columns": 3,
+      "size_bytes": 4615,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Oxboys.csv",
+      "file": "Oxboys.csv",
+      "format": ".csv",
+      "rows": 234,
+      "columns": 4,
+      "size_bytes": 4177,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "Oxide.csv",
+      "file": "Oxide.csv",
+      "format": ".csv",
+      "rows": 72,
+      "columns": 5,
+      "size_bytes": 1112,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "PBG.csv",
+      "file": "PBG.csv",
+      "format": ".csv",
+      "rows": 60,
+      "columns": 5,
+      "size_bytes": 1465,
+      "modified": "2026-10-26T23:32:06"
+    },
+    {
+      "name": "PD1.csv",
+      "file": "PD1.csv",
+      "format": ".csv",
+      "rows": 300,
+      "columns": 4,
+      "size_bytes": 4681,
+      "modified": "2026-11-13T12:04:15"
+    },
+    {
+      "name": "Phenobarb.csv",
+      "file": "Phenobarb.csv",
+      "format": ".csv",
+      "rows": 744,
+      "columns": 7,
+      "size_bytes": 17966,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Pixel.csv",
+      "file": "Pixel.csv",
+      "format": ".csv",
+      "rows": 102,
+      "columns": 4,
+      "size_bytes": 1591,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Quinidine.csv",
+      "file": "Quinidine.csv",
+      "format": ".csv",
+      "rows": 1471,
+      "columns": 14,
+      "size_bytes": 99741,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Rail.csv",
+      "file": "Rail.csv",
+      "format": ".csv",
+      "rows": 18,
+      "columns": 2,
+      "size_bytes": 139,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "RatPupWeight.csv",
+      "file": "RatPupWeight.csv",
+      "format": ".csv",
+      "rows": 322,
+      "columns": 5,
+      "size_bytes": 7803,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "RecreationDemand.csv",
+      "file": "RecreationDemand.csv",
+      "format": ".csv",
+      "rows": 659,
+      "columns": 8,
+      "size_bytes": 23282,
+      "modified": "2026-11-10T16:25:48"
+    },
+    {
+      "name": "Relaxin.csv",
+      "file": "Relaxin.csv",
+      "format": ".csv",
+      "rows": 198,
+      "columns": 3,
+      "size_bytes": 2433,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Remifentanil.csv",
+      "file": "Remifentanil.csv",
+      "format": ".csv",
+      "rows": 2107,
+      "columns": 12,
+      "size_bytes": 135979,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Soybean.csv",
+      "file": "Soybean.csv",
+      "format": ".csv",
+      "rows": 412,
+      "columns": 5,
+      "size_bytes": 10665,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Spruce.csv",
+      "file": "Spruce.csv",
+      "format": ".csv",
+      "rows": 1027,
+      "columns": 4,
+      "size_bytes": 19440,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Tetracycline1.csv",
+      "file": "Tetracycline1.csv",
+      "format": ".csv",
+      "rows": 40,
+      "columns": 4,
+      "size_bytes": 843,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Tetracycline2.csv",
+      "file": "Tetracycline2.csv",
+      "format": ".csv",
+      "rows": 40,
+      "columns": 4,
+      "size_bytes": 881,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Theoph.csv",
+      "file": "Theoph.csv",
+      "format": ".csv",
+      "rows": 132,
+      "columns": 5,
+      "size_bytes": 2992,
+      "modified": "2026-11-12T22:46:01"
+    },
+    {
+      "name": "Wafer.csv",
+      "file": "Wafer.csv",
+      "format": ".csv",
+      "rows": 400,
+      "columns": 4,
+      "size_bytes": 6003,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Wheat.csv",
+      "file": "Wheat.csv",
+      "format": ".csv",
+      "rows": 48,
+      "columns": 4,
+      "size_bytes": 929,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "Wheat2.csv",
+      "file": "Wheat2.csv",
+      "format": ".csv",
+      "rows": 224,
+      "columns": 5,
+      "size_bytes": 5605,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "abdom.csv",
+      "file": "abdom.csv",
+      "format": ".csv",
+      "rows": 610,
+      "columns": 2,
+      "size_bytes": 5764,
+      "modified": "2026-11-14T16:15:53"
+    },
+    {
+      "name": "ahs.csv",
+      "file": "ahs.csv",
+      "format": ".csv",
+      "rows": 5190,
+      "columns": 15,
+      "size_bytes": 272154,
+      "modified": "2026-10-26T23:10:40"
+    },
+    {
+      "name": "ais.csv",
+      "file": "ais.csv",
+      "format": ".csv",
+      "rows": 202,
+      "columns": 13,
+      "size_bytes": 13993,
+      "modified": "2026-11-09T20:07:25"
+    },
+    {
+      "name": "barolo.csv",
+      "file": "barolo.csv",
+      "format": ".csv",
+      "rows": 307,
+      "columns": 5,
+      "size_bytes": 5631,
+      "modified": "2026-11-09T20:07:25"
+    },
+    {
+      "name": "bdf.csv",
+      "file": "bdf.csv",
+      "format": ".csv",
+      "rows": 2287,
+      "columns": 28,
+      "size_bytes": 401670,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "bioChemists.csv",
+      "file": "bioChemists.csv",
+      "format": ".csv",
+      "rows": 915,
+      "columns": 6,
+      "size_bytes": 35601,
+      "modified": "2026-11-10T15:33:27"
+    },
+    {
+      "name": "breslow.csv",
+      "file": "breslow.csv",
+      "format": ".csv",
+      "rows": 59,
+      "columns": 12,
+      "size_bytes": 2648,
+      "modified": "2026-11-08T15:09:52"
+    },
+    {
+      "name": "cbpp.csv",
+      "file": "cbpp.csv",
+      "format": ".csv",
+      "rows": 56,
+      "columns": 5,
+      "size_bytes": 1046,
+      "modified": "2026-11-18T21:17:03"
+    },
+    {
+      "name": "dipodium.csv",
+      "file": "dipodium.csv",
+      "format": ".csv",
+      "rows": 1363,
+      "columns": 21,
+      "size_bytes": 87080,
+      "modified": "2026-10-27T19:06:28"
+    },
+    {
+      "name": "email.csv",
+      "file": "email.csv",
+      "format": ".csv",
+      "rows": 3921,
+      "columns": 21,
+      "size_bytes": 347429,
+      "modified": "2026-11-08T14:04:06"
+    },
+    {
+      "name": "ergoStool.csv",
+      "file": "ergoStool.csv",
+      "format": ".csv",
+      "rows": 36,
+      "columns": 3,
+      "size_bytes": 366,
+      "modified": "2026-10-26T23:32:08"
+    },
+    {
+      "name": "film90.csv",
+      "file": "film90.csv",
+      "format": ".csv",
+      "rows": 4031,
+      "columns": 4,
+      "size_bytes": 234442,
+      "modified": "2026-11-05T21:35:14"
+    },
+    {
+      "name": "globwarm.csv",
+      "file": "globwarm.csv",
+      "format": ".csv",
+      "rows": 1001,
+      "columns": 10,
+      "size_bytes": 51519,
+      "modified": "2026-10-29T19:51:18"
+    },
+    {
+      "name": "knee.csv",
+      "file": "knee.csv",
+      "format": ".csv",
+      "rows": 508,
+      "columns": 8,
+      "size_bytes": 10071,
+      "modified": "2026-11-13T13:30:55"
+    },
+    {
+      "name": "longley.csv",
+      "file": "longley.csv",
+      "format": ".csv",
+      "rows": 16,
+      "columns": 7,
+      "size_bytes": 792,
+      "modified": "2026-11-09T19:48:13"
+    },
+    {
+      "name": "lung.csv",
+      "file": "lung.csv",
+      "format": ".csv",
+      "rows": 228,
+      "columns": 10,
+      "size_bytes": 6593,
+      "modified": "2026-11-08T19:30:38"
+    },
+    {
+      "name": "ologit.csv",
+      "file": "ologit.csv",
+      "format": ".csv",
+      "rows": 400,
+      "columns": 4,
+      "size_bytes": 13647,
+      "modified": "2026-11-10T14:45:47"
+    },
+    {
+      "name": "oxboys.csv",
+      "file": "oxboys.csv",
+      "format": ".csv",
+      "rows": 234,
+      "columns": 4,
+      "size_bytes": 4093,
+      "modified": "2026-11-13T12:20:51"
+    },
+    {
+      "name": "rapi.csv",
+      "file": "rapi.csv",
+      "format": ".csv",
+      "rows": 3616,
+      "columns": 4,
+      "size_bytes": 57233,
+      "modified": "2026-11-13T13:26:10"
+    },
+    {
+      "name": "rent.csv",
+      "file": "rent.csv",
+      "format": ".csv",
+      "rows": 1969,
+      "columns": 9,
+      "size_bytes": 66818,
+      "modified": "2026-11-05T21:33:02"
+    },
+    {
+      "name": "rent99.csv",
+      "file": "rent99.csv",
+      "format": ".csv",
+      "rows": 3082,
+      "columns": 8,
+      "size_bytes": 146261,
+      "modified": "2026-11-15T13:57:05"
+    },
+    {
+      "name": "sleepstudy.csv",
+      "file": "sleepstudy.csv",
+      "format": ".csv",
+      "rows": 180,
+      "columns": 3,
+      "size_bytes": 2695,
+      "modified": "2026-10-28T20:55:06"
+    },
+    {
+      "name": "soil.csv",
+      "file": "soil.csv",
+      "format": ".csv",
+      "rows": 250,
+      "columns": 9,
+      "size_bytes": 7718,
+      "modified": "2026-10-26T22:47:30"
+    },
+    {
+      "name": "soya.csv",
+      "file": "soya.csv",
+      "format": ".csv",
+      "rows": 75,
+      "columns": 7,
+      "size_bytes": 2432,
+      "modified": "2026-10-26T20:33:58"
+    },
+    {
+      "name": "state_x77.csv",
+      "file": "state_x77.csv",
+      "format": ".csv",
+      "rows": 50,
+      "columns": 8,
+      "size_bytes": 1996,
+      "modified": "2026-11-07T20:19:02"
+    },
+    {
+      "name": "theo.csv",
+      "file": "theo.csv",
+      "format": ".csv",
+      "rows": 120,
+      "columns": 6,
+      "size_bytes": 3100,
+      "modified": "2026-11-13T12:05:33"
+    },
+    {
+      "name": "titanic.csv",
+      "file": "titanic.csv",
+      "format": ".csv",
+      "rows": 891,
+      "columns": 12,
+      "size_bytes": 60302,
+      "modified": "2026-11-16T14:04:24"
+    },
+    {
+      "name": "toenail.csv",
+      "file": "toenail.csv",
+      "format": ".csv",
+      "rows": 1908,
+      "columns": 5,
+      "size_bytes": 29751,
+      "modified": "2026-11-13T12:23:27"
+    },
+    {
+      "name": "wines.csv",
+      "file": "wines.csv",
+      "format": ".csv",
+      "rows": 178,
+      "columns": 28,
+      "size_bytes": 25024,
+      "modified": "2026-11-09T20:07:26"
+    }
+  ]
+}
