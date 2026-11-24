@@ -144,11 +144,15 @@ from statcraft.datasets import (
     list_datasets,
 )
 
-list_datasets()                  # friendly alias of available_datasets()
+list_datasets()                  # catalogue names, e.g. "Orthodont.csv"
 available_datasets()             # names accepted by data_loader(...)
 dataset_info().head()            # DataFrame with metadata
 dataset_registry_path()          # Path to datasets.json
 ```
+
+`list_datasets()` mirrors the catalogue and keeps the `.csv` suffix, matching
+`dataset_info()["name"]`. Pass `strip_ext=True` to get the shorter,
+loader-friendly spelling; `available_datasets()` already defaults to that form.
 
 `dataset_info()` returns these columns:
 

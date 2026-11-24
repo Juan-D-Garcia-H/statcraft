@@ -312,9 +312,15 @@ def list_datasets(
     data_dir: str | os.PathLike | None = None,
     *,
     refresh: bool = False,
-    strip_ext: bool = True,
+    strip_ext: bool = False,
 ) -> list[str]:
-    """Friendly alias of :func:`available_datasets`."""
+    """Names recorded in the generated catalogue, with file extensions.
+
+    This is the display counterpart of :func:`available_datasets`: it returns
+    the same names shown by :func:`dataset_info`, such as ``"Orthodont.csv"``.
+    Pass ``strip_ext=True`` when you need the loader-friendly spelling without
+    the trailing ``.csv``.
+    """
     return available_datasets(data_dir, refresh=refresh, strip_ext=strip_ext)
 
 
